@@ -14,7 +14,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  Bloc.observer=CustomBlocObserver();
+   Bloc.observer=CustomBlocObserver();
   runApp(const ScholarChat());
 }
 

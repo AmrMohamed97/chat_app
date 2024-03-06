@@ -1,10 +1,10 @@
 import 'package:bloc/bloc.dart';
  import 'package:chat_app/core/constants/constants.dart';
+import 'package:chat_app/core/models/message.dart';
 import 'package:chat_app/features/chat_page/manager/chat_state.dart';
- import 'package:chat_app/models/message.dart';
- import 'package:cloud_firestore/cloud_firestore.dart';
+  import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-
+// amr
 class ChatCubit extends Cubit<ChatStates>{
   ChatCubit():super(ChatInitialState());
   List<Message> messagesList=[];
